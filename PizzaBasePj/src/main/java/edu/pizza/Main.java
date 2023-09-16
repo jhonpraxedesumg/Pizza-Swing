@@ -19,7 +19,7 @@ public class Main {
         frame.pack();
         frame.setVisible(true);
        // ejercicio 1
-//       Pizza pizza = new Pizza("Pizza Margherita");
+//       Pizza pizza = new Pizza("Pizza Margarita");
 //       pizza.addTopping(new Topping("Champiñones  ", 150));
 //       pizza.addTopping(new Topping("Mozzarella  ", 200));
 //        pizza.addTopping(new Topping("Cebolla  ", 60));

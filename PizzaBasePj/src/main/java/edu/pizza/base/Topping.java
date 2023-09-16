@@ -7,6 +7,7 @@ public class Topping {
     private double precio;
 
     public double getPrecio() {
+
         return precio;
     }
 
@@ -14,6 +15,7 @@ public class Topping {
     private ArrayList<String> ingredientes = new ArrayList<>(); // Ingredientes del topping
 
     public void agregarIngrediente(String ingrediente) {
+
         this.ingredientes.add(ingrediente);
     }
 
@@ -30,18 +32,22 @@ public class Topping {
 
     //getters y setters
     public String getNombre() {
+
         return nombre;
     }
 
     public void setNombre(String nombre) {
+
         this.nombre = nombre;
     }
 
     public ArrayList<String> getIngredientes() {
+
         return ingredientes;
     }
 
     public void setIngredientes(ArrayList<String> ingredientes) {
+
         this.ingredientes = ingredientes;
     }
 
